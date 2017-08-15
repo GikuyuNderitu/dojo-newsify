@@ -1,0 +1,14 @@
+<div class="container">
+  <label>
+    BBC:
+    <input (click)="subscribeNews('bbc')" type="checkbox" [checked]="status.bbc">
+  </label>
+  <label>
+    Recode:
+    <input (click)="subscribeNews('recode')" type="checkbox" [checked]="status.recode">
+  </label>
+  <label>
+    Hacker News:
+    <input (click)="subscribeNews('hN')" type="checkbox" [checked]="status.hN">
+  </label>
+</div>
